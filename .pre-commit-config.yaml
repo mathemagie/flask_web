@@ -9,13 +9,13 @@ repos:
         exclude: "tests/functional/t/trailing_whitespaces.py|tests/pyreverse/data/.*.html"
       - id: end-of-file-fixer
         exclude: "tests/functional/m/missing/missing_final_newline.py|tests/functional/t/trailing_newlines.py"
-      - id : check-json
-      - id : sort-simple-yaml
+      - id: check-json
+      - id: sort-simple-yaml
 
   - repo: https://github.com/asottile/pyupgrade
     rev: v2.31.0
     hooks:
-      - id : pyupgrade
+      - id: pyupgrade
 
   - repo: https://github.com/myint/autoflake
     rev: v1.4
